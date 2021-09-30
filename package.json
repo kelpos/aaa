@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "canvas-confetti": "^1.4.0",
+    "csv": "^5.5.3",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "name": "check_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
