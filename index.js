@@ -15,7 +15,7 @@ app.use(express.static("images"));
 app.use(express.static("a"));
 
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/../index.html");
+    res.sendFile(__dirname + "/index.html");
 });
 
 var statusBox;
