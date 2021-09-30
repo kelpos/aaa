@@ -53,7 +53,10 @@
 
 
     socket.on("read-date", (year, month, day) => { //CSVに書いてある日付を左側におく
-        partLeft.innerHTML += '<li onclick = changeDate(this)>' + month + "月" + day +
+        var stringToRead;
+        stringToRead =  month + "月" + day;
+        stringToRead = stringToRead.replace(/\s/g, '');
+        partLeft.innerHTML += '<li onclick = changeDate(this)>' + stringToRead.replace +
             '日<span style="display:none">' + year + "</span></li>";
     });
 
