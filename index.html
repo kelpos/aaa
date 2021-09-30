@@ -192,7 +192,7 @@
             socket.emit("set status", dateForCsv);
 
             socket.on("set check", (tempArr) => {
-                for (var i = 0; i < tempArr.length; i++) {
+                for (var i = 0; i <= tempArr.length; i++) {
                     var id_mix = "#_checkbox" + (i + 1);
                     console.log(i);
                     if (tempArr[i] === "true") {
