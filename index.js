@@ -54,7 +54,7 @@ io.on("connection", (socket) => {
     socket.on("import box status", () => {
         if (statusBox != null) {
             var saveWord = socket.roomname;
-            for (var i = 0; i <= 19; i++) {
+            for (var i = 0; i <= 20; i++) {
                 saveWord += "," + statusBox[i][1];
 
 
