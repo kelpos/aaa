@@ -78,7 +78,7 @@ io.on("connection", (socket) => {
                 for (var i = 0; i < data.length; i++) {
                     if (data[i][0] == dateForCsv) {
                         var tempArr = []
-                        for (var j = 1; j <= 20; j++) {
+                        for (var j = 1; j <= 19; j++) {
                             tempArr.push(data[i][j]);
                         }
                     }
